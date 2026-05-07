@@ -10,8 +10,7 @@ function App() {
         <h1>Проект на ateofanov</h1>
         <p className="subtitle">Факултетен номер: <strong>256sz</strong></p>
         <p>
-          Това е преработена версия на проекта с обновени авторски данни и
-          готова структура за качване в GitHub.
+          Малък проект направен направен на ReactJS с няколко елемента в една фукнция.
         </p>
         <div className="cards">
           <article>
