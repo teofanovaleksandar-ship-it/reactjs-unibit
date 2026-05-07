@@ -2,13 +2,10 @@
   "name": "reactjs-unibit-ateofanov",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://teofanovaleksandar-ship-it.github.io/reactjs-unibit/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -16,7 +13,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^5.4.10",
-    "gh-pages": "^6.2.0"
+    "vite": "^5.4.10"
   }
 }
