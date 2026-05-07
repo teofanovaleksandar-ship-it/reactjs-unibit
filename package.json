@@ -2,18 +2,21 @@
   "name": "reactjs-unibit-ateofanov",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://ateofanov.github.io/reactjs-unibit",
+  "homepage": "https://teofanovaleksandar-ship-it.github.io/reactjs-unibit/",
   "scripts": {
-    "start": "vite --host 0.0.0.0",
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.10",
+    "gh-pages": "^6.2.0"
+  }
 }
